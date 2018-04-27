@@ -1,0 +1,50 @@
+@font-face {
+  font-family: avenir;
+  src: url(avenir.otf);
+}
+* {
+  font-family: avenir;
+  color: white;
+}
+.track-list p {
+  color: black;
+}
+.header {
+  background-color: grey;
+  height: 75px;
+  position: relative;
+}
+.header h3 {
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+}
+.footer {
+  background-color: grey;
+  height: 40px;
+}
+.footer p {
+  margin-left: 50px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.track-list {
+/*   border: 2px solid black; */
+  background-color: lightgoldenrodyellow;
+  height: 300px;
+  margin-top: 30px;
+  border: 2px solid black;
+}
+.album-list {
+  margin-top: 20px;
+
+}
+
+.cover img {
+  height: 100%;
+  width: 100%;
+}
+.btn {
+  margin-top: 20px;
+  margin-right: 20px;
+}

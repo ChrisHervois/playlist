@@ -1,0 +1,67 @@
+@font-face {
+  font-family: avenir;
+  src: url(avenir.otf);
+}
+
+* {
+  font-family: avenir;
+  color: white;
+}
+
+h1 {
+  color: purple;
+}
+
+.header, .footer {
+  background-color: grey;
+  height: 40px;
+}
+
+.footer p {
+  margin-left: 50px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.left {
+  text-align: center;
+  padding-top: 250px;
+}
+
+.right {
+  // border: 2px solid black;
+  height: 100vh;
+  position: relative;
+}
+
+.album-list {
+  // border: 2px solid gold;
+  height: 100%;
+  width: 50%;
+  padding-top: 25px;
+  position: absolute;
+  top: 20px;
+  left: 160px;
+}
+
+.album img {
+  height: 100%;
+  width: 100%;
+}
+
+.album {
+  // border: 2px solid green;
+  width: 66%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+img.track {
+  height: 100%;
+  width: 100%;
+  opacity: 0.19;
+}
+
+body {
+  background: #f5f5f5;
+}
